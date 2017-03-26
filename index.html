@@ -7,7 +7,9 @@
 <!--    CSS   -->
  <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   <link rel="stylesheet" href="css/fontello.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:300,400" rel="stylesheet">
     <title>Medical HTML Theme</title>
 </head>
 
@@ -19,25 +21,26 @@
    <div class="container">
       <div class="col-md-12">
          <div class="row">
-            <div class="col-md-1">
-               <p>Have any questions?</p>
-            </div>
-            <div class="col-md-1">
-               <p>+43 433 234 345</p>
-            </div>
-            <div class="col-md-1">
-               <p>askanything@medica.com</p>
-            </div>
-            <div class="col-md-5"></div>
-            <div class="col-md-4">
+          <div class="col-md-9">
+             <ul class="contactbar">
+                <li><h6 class="small">Have any questions?</h6></li>
+                <li><h6 class="small"><i class="icon-phone"></i> <span>+43 435 345 234</span></h6></li>
+                <li><h6 class="small"><i class="icon-mail"></i> <span>ask@medical.com</span></h6></li>
+             </ul>
+             </div>
+
+
+
+
+            <div class="col-md-3 social">
                <ul class="socialmedia">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li><i class="icon-facebook"></i></li>
+                  <li><i class="icon-gplus"></i></li>
+                  <li><i class="icon-youtube"></i></li>
+                  <li><i class="icon-twitter"></i></li>
+                  <li><i class="icon-vimeo"></i></li>
+                  <li><i class="icon-pinterest"></i></li>
+                  <li><i class="icon-linkedin"></i></li>
                   <li></li>
                </ul>
             </div>
@@ -49,22 +52,24 @@
             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
                <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
-               <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="#">Disabled</a> </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+               <button class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
             </form>
          </div>
       </nav>
       <div class="col-md-12">
          <div class="row">
-            <div class="col-md-6">
-               <h2>1000 oportunities</h2>
+            <div class="col-md-12 title">
+               <h2><span>1000</span> oportunities</h2>
                <h3>The easiest way to build different sites without many themes</h3>
-               <button class="btn btn-large"></button>
+               <div class="btn-group">
+               <button class="btn btn-large btn-calendar">Make an appointment</button>
+                  <button type="button" class="btn btn-large"><i class="icon-calendar"></i></button>
+               </div>
             </div>
-            <div class="col-md-6"></div>
          </div>
       </div>
    </div>
@@ -74,32 +79,32 @@
 
    <!--       section      -->
 
+<section class="main-info">
 
-
-<div class="container-fluid">
-   <h2>The highest standard of health care</h2>
-   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quasi est nobis, pariatur nesciunt dolorum!</h3>
+<div class="container">
+   <h1><span><i class="icon-right-dir"></i></span>The highest standard of health care <span><i class="icon-left-dir"></i></span></h1>
+   <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quasi est nobis, pariatur nesciunt dolorum!</h5>
    <div class="row">
       <div class="col-md-3">
-         <div class="icon"> <i class="ion-ios-pulse-strong"></i> </div>
+         <div class="icon"> <span><i class="icon-stethoscope"></i></span> </div>
          <h3>
             Medicine
          </h3>
          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quia, sunt provident natus quaerat dicta!</h4> </div>
       <div class="col-md-3">
-         <div class="icon"> <i class="ion-ios-pulse-strong"></i> </div>
+         <div class="icon"> <span><i class="icon-medkit"></i></span> </div>
          <h3>
             Medicine
          </h3>
          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quia, sunt provident natus quaerat dicta!</h4> </div>
       <div class="col-md-3">
-         <div class="icon"> <i class="ion-ios-pulse-strong"></i> </div>
+         <div class="icon"> <span><i class="icon-heartbeat"></i></span> </div>
          <h3>
             Medicine
          </h3>
          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quia, sunt provident natus quaerat dicta!</h4> </div>
       <div class="col-md-3">
-         <div class="icon"> <i class="ion-ios-pulse-strong"></i> </div>
+         <div class="icon"> <span><i class="icon-eye"></i></span> </div>
          <h3>
             Medicine
          </h3>
@@ -108,28 +113,30 @@
 
    <div class="btn-group" role="group" aria-label="Basic example">
       <button type="button" class="btn btn-secondary">Make an appointment</button>
-      <button type="button" class="btn btn-secondary"><i class="ion-ios-calendar-outline"></i></button>
+      <button type="button" class="btn btn-secondary"><i class="icon-calendar"></i></button>
 
    </div>
 
 </div>
+
+   </section>
 
 
 
    <!--       section       -->
 
 
+<section class="contact">
 
-
-<div class="container-fluid">
+<div class="container">
    <div class="col-md-12">
       <div class="row">
          <div class="col-md-6">
-            <div class="image1"></div>
+            <div class="image1"><img class="img-responsive" src="img/dentist1.jpg" alt=""></div>
             <h2>Welcome to Our Clinic</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officia perspiciatis error ipsam facere, nam repellat saepe amet unde quos in placeat explicabo quisquam earum veniam ab fuga. At excepturi provident maiores consequatur!</h3> </div>
-         <div class="col-md-3">
-            <h3>Open hours</h3>
+         <div class="col-md-3 hours">
+            <h2>Open hours</h2>
             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, incidunt?</h2>
             <p>Monday - Friday</p>
             <p><span>800 - 1600</span></p>
@@ -138,28 +145,28 @@
             <p>Sunday</p>
             <p><span>800 - 1600</span></p>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3 address">
             <h2>Get in touch</h2>
             <div class="row">
-               <div class="col-md-4"><i class="ion-ios-location-outline"></i></div>
+               <div class="col-md-4"><i class="icon-right-open"></i></div>
                <div class="col-md-8">
                   <p>Envato Level 13, 2 Elizabeth St, Melbourne, Victoria 3000 Australia</p>
                </div>
             </div>
             <div class="row">
-               <div class="col-md-4"><i class="ion-ios-telephone-outline"></i></div>
+               <div class="col-md-4"><i class="icon-phone"></i></div>
                <div class="col-md-8">
                   <p>+61 (0) 7 9180 3458</p>
                </div>
             </div>
             <div class="row">
-               <div class="col-md-4"><i class="ion-ios-email-outline"></i></div>
+               <div class="col-md-4"><i class="icon-mail"></i></div>
                <div class="col-md-8">
                   <p>noreply@envato.com</p>
                </div>
             </div>
             <div class="row">
-               <div class="col-md-4"><i class="ion-ios-information-outline"></i></div>
+               <div class="col-md-4"><i class="icon-link"></i></div>
                <div class="col-md-8">
                   <p>www.envato.com</p>
                </div>
@@ -168,15 +175,16 @@
       </div>
    </div>
 </div>
-
+   </section>
 
    <!--       section       -->
 
-
-<div class="container-fluid">
+<section class="offer">
+<div class="container">
    <div class="col-md-12">
-      <h3>QUICK FACTS ABOUT OUR CLINIC</h3>
-      <h1>See what we provide for your health</h1> </div>
+      <h>QUICK FACTS ABOUT OUR CLINIC</h>
+      <h2><span>See what we provide for your health</span></h2>
+      </div>
    <div class="col-md-12">
       <div class="row">
          <div class="col-md-4">
@@ -210,35 +218,37 @@
       </div>
    </div>
 </div>
-
+   </section>
 
 
    <!--       section       -->
 
-
-<div class="container-fluid">
+<section class="appointment">
+<div class="container">
 
    <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
    <div class="btn-group" role="group" aria-label="Basic example">
       <button type="button" class="btn btn-secondary">Make an appointment</button>
-      <button type="button" class="btn btn-secondary"><i class="ion-ios-calendar-outline"></i></button>
+      <button type="button" class="btn btn-secondary"><i class="icon-pen"></i></button>
 
    </div>
 </div>
-
+   </section>
 
 
    <!--       section       -->
 
-
+<section class="persons">
 
 <div class="container">
-   <div class="col-md-6">
-      <div class="image3"></div>
-      <h3>Lorem ipsum dolor.</h3>
-      <h4>Lorem.</h4>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus adipisci voluptatum architecto maiores cum.</p>
+   <div class="col-md-6 first">
+      <div class="image3"><img class="img-responsive" src="img/dent2.jpg" alt=""></div>
+     <div class="wrapper">
+          <h3>Lorem ipsum dolor.</h3>
+         <h4>Lorem.</h4>
+         <hr>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus adipisci voluptatum architecto maiores cum.</p>
+      </div>
       <ul class="socialicons2">
          <li></li>
          <li></li>
@@ -246,12 +256,14 @@
          <li></li>
       </ul>
    </div>
-   <div class="col-md-6">
-      <div class="image3"></div>
-      <h3>Lorem ipsum dolor.</h3>
-      <h4>Lorem.</h4>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus adipisci voluptatum architecto maiores cum.</p>
+   <div class="col-md-6 first">
+      <div class="image3"><img class="img-responsive" src="img/dent3.jpg" alt=""></div>
+      <div class="wrapper">
+         <h3>Lorem ipsum dolor.</h3>
+         <h4>Lorem.</h4>
+         <hr>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus adipisci voluptatum architecto maiores cum.</p>
+      </div>
       <ul class="socialicons2">
          <li></li>
          <li></li>
@@ -261,16 +273,16 @@
    </div>
 </div>
 
-
+   </section>
 
    <!--       section       -->
 
 
-
-<div class="container">
-   <div class="image4"></div>
-</div>
-
+<div class="image10">
+   <div class="container">
+      <div class="image4"></div>
+   </div>
+   </div>
 
 
    <!--       section       -->

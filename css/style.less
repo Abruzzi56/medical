@@ -1,0 +1,236 @@
+
+
+@main: #13bfb1;
+@maindark: #292b2c;
+@font1: #3bbbb0;
+@font2: #333333;
+@font3: #737474;
+@font4: #b5b5b5;
+@font4: white;
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+*:focus {
+   border: @font1;
+}
+body {
+   font-family: "Roboto";
+}
+.jumbotron {
+   background-image: url(../img/slide-doctor-bg.jpg);
+   background-size: cover;
+   min-height: 100vh;
+   font-family: "Roboto";
+   .col-md-7 {
+      line-height: 29px;
+   }
+}
+.jumbotron .social {
+   text-align: right;
+}
+.jumbotron .container {
+   margin-top: -30px;
+   .contactbar li {
+      display: inline-block;
+      padding: 10px;
+      h6 {
+         color: white;
+      }
+      }
+}.socialmedia {
+     li {
+   display: inline-block;
+        line-height: 24px;
+   }
+}
+.jumbotron h2 {
+   font-size: 45px;
+}
+.jumbotron button {
+   background: @font1;
+   color: @font4;
+}
+.jumbotron .btn-group {
+   margin-top: 30px;
+   .btn-calendar {
+      border: #00d6a5;
+   }
+}
+.jumbotron .title {
+   margin-top: 10%;
+   h2 {
+      font-size: 5vw;
+   }
+   h3 {
+      fonts-size: 1vw;
+      margin-top: 2%;
+   }
+}
+span {
+   color: #13bfb1;
+}
+.navbar {
+   height: 90px;
+   background: white;
+}
+.navbar-nav a{
+   border-right: 1px dotted #d6d6d6;
+   line-height: 25px;
+   color: #333333;
+   display: block;
+   width: 90px;
+   text-align: center;
+}
+
+// SECTION MAIN INFO //
+
+.main-info {
+   font-family: "Lato";
+   text-align: center;
+   h1 {
+      font-size: 3vw;
+      font-weight: 300;
+      margin-bottom: 20px;
+      color: @maindark;
+   }
+   h3 {
+      font-size: 21px;
+      font-weight: 300;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   h4 {
+      font-size: 13px;
+      color: lighten(@font3, 20%);
+      margin-bottom: 20px;
+
+   }
+   h5 {
+      margin-bottom: 70px;
+      color: lighten(@font3, 20%);
+      font-size: 13px;
+   }
+   .icon {
+      font-size: 62px;
+   }
+   button {
+      margin-top: 20px;
+      margin-bottom: 61px;
+   }
+}
+
+// SECTION CONTACT //
+
+section.contact {
+   background: #ecf7f6;
+   font-family: "Lato";
+   font-weight: 300;
+   .image1 img{
+      width: 99%;
+   }
+   h2 {
+      font-size: 25px;
+      padding: 10px 0px;
+   }
+   h3 {
+      line-height: 22px;
+      font-weight: 300;
+      font-family: "Roboto";
+      padding: 0px 0px 20px 0px;
+      color: #626262;
+   }
+   .hours {
+      background: white;
+      background-image: url(../img/clockbackground.png);
+      background-size: cover;
+   }
+   .address {
+      background-image: url(../img/message.png);
+      background-size: cover;
+      color: white;
+      font-weight: 300;
+   }
+   h2 {
+      padding-bottom: 25px;
+   }
+   p {
+      line-height: 25px;
+   }
+   .row {
+      margin-bottom: 25px;
+      .col-md-4 {
+         text-align: center;
+         border-right: 2px dotted #00a3a3;
+      }
+   }
+}
+
+// SECTION OFFER //
+
+section.offer {
+   font-family: "Lato";
+  .col-md-12 {
+      text-align: center;
+     h2 {
+        font-size: 42px;
+        font-weight: 300;
+        padding-bottom: 30px;
+     }
+   }
+}
+
+// SECTION APPOINTMENT //
+
+section.appointment {
+   position: relative;
+   background: @font1;
+   font-family: "Lato";
+   height: 45vh;
+   text-align: center;
+   .container {
+      position: absolute;
+      top: calc(50%-20%);
+   }
+   h2 {
+      font-size: 22px;
+      display: inline;
+      width: 500px;
+      color: white;
+   }
+   button {
+      border-radius: 8px;
+   }
+   div.btn-group {
+   padding-left: 100px;
+   vertical-align: baseline;
+   margin-top: 15px;
+   }
+}
+
+// SECTION PERSONS //
+
+section.persons {
+   margin-top: 35px;
+   .image3 {
+      float: left;
+   }
+   img {
+
+   }
+   .wrapper {
+     display: inline;
+      width: auto;
+   }
+   .first {
+      float: left;
+      width: auto;
+   }
+}
+
+.image10 {
+   clear: both;
+}
