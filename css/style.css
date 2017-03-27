@@ -150,21 +150,49 @@ section.contact .row .col-md-4 {
   border-right: 2px dotted #00a3a3;
 }
 section.offer {
+  margin-top: 50px;
   font-family: "Lato";
 }
 section.offer .col-md-12 {
-  text-align: center;
+  text-align: left;
 }
 section.offer .col-md-12 h2 {
   font-size: 42px;
   font-weight: 300;
   padding-bottom: 30px;
+  text-align: center;
+  font-family: "Lato";
+  padding-bottom: 60px;
+}
+section.offer .col-md-12 h3 {
+  text-align: center;
+}
+section.offer .col-md-12 h4 {
+  text-align: left;
+  font-family: "Lato";
+}
+section.offer .col-md-12 h5 {
+  font-family: "Roboto";
+  padding-top: 4px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  color: #c0c0c0;
+}
+section.offer i {
+  font-size: 63px;
+  float: left;
+  padding-right: 13px;
+  color: #13bfb1;
+}
+section.offer .col-md-4 {
+  padding-bottom: 65px;
 }
 section.appointment {
   position: relative;
   background: #3bbbb0;
   font-family: "Lato";
-  height: 45vh;
+  height: 25vh;
   text-align: center;
 }
 section.appointment .container {
@@ -191,14 +219,74 @@ section.persons {
 section.persons .image3 {
   float: left;
 }
-section.persons .wrapper {
-  display: inline;
-  width: auto;
-}
 section.persons .first {
   float: left;
   width: auto;
 }
+section.persons .wrapper {
+  display: inline-block;
+  float: left;
+  max-width: 53%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+section.persons h3 {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 21px;
+}
+section.persons h4 {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: #a6a7a7;
+  padding-top: 4px;
+}
+section.persons p {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 21px;
+}
+section.persons hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(39, 255, 172, 0), rgba(0, 188, 188, 0.75), rgba(0, 232, 170, 0));
+  max-width: 30%;
+}
+section.persons .socialicons2 {
+  margin-top: 10px;
+}
+section.persons .socialicons2 li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px dashed #3bbbb0;
+}
 .image10 {
   clear: both;
+}
+section.heart .image10 {
+  padding: 55px 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer {
+  background: #737474;
+  text-align: center;
+  min-width: 100%;
+  min-height: 5vh;
+  color: white;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+footer .container-fluid {
+  bottom: 0px;
+}
+footer .socialmedia3 li {
+  display: inline-block;
+  padding: 10px;
+}
+footer p {
+  line-height: 35px;
+}
+footer .col-md-4 {
+  margin-left: auto;
 }
