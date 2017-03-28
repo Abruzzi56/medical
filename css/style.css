@@ -8,12 +8,14 @@
 }
 body {
   font-family: "Roboto";
+  overflow-x: hidden;
 }
 .jumbotron {
   background-image: url(../img/slide-doctor-bg.jpg);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 98vh;
   font-family: "Roboto";
+  position: relative;
 }
 .jumbotron .col-md-7 {
   line-height: 29px;
@@ -23,6 +25,10 @@ body {
 }
 .jumbotron .container {
   margin-top: -30px;
+}
+.jumbotron .container .navbar-brand img {
+  width: 30px;
+  vertical-align: sub;
 }
 .jumbotron .container .contactbar li {
   display: inline-block;
@@ -55,7 +61,7 @@ body {
   font-size: 5vw;
 }
 .jumbotron .title h3 {
-  fonts-size: 1vw;
+  font-size: 1vw;
   margin-top: 2%;
 }
 span {
@@ -289,4 +295,205 @@ footer p {
 }
 footer .col-md-4 {
   margin-left: auto;
+}
+section.offer1,
+section.offer2,
+section.offer3,
+section.offer4 {
+  margin-bottom: 80px;
+}
+section.offer1 .col-md-4,
+section.offer2 .col-md-4,
+section.offer3 .col-md-4,
+section.offer4 .col-md-4 {
+  border-right: 1px dotted #a6a7a7;
+}
+section.offer1 h2,
+section.offer2 h2,
+section.offer3 h2,
+section.offer4 h2 {
+  font-size: 30px;
+  font-family: "Lato";
+  font-weight: 300;
+  padding: 10px 0px;
+}
+section.offer1 h3,
+section.offer2 h3,
+section.offer3 h3,
+section.offer4 h3 {
+  font-size: ;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+  color: #13bfb1;
+}
+section.offer1 i,
+section.offer2 i,
+section.offer3 i,
+section.offer4 i {
+  font-size: 62px;
+  color: #13bfb1;
+  padding-top: 100px;
+}
+section.offer1 p,
+section.offer2 p,
+section.offer3 p,
+section.offer4 p {
+  font-size: 13px;
+  line-height: 21px;
+  color: #737474;
+}
+section.offer1 ul,
+section.offer2 ul,
+section.offer3 ul,
+section.offer4 ul {
+  padding: 10px 0px;
+  list-style: none;
+  line-height: 22px;
+}
+section.offer1 ul i,
+section.offer2 ul i,
+section.offer3 ul i,
+section.offer4 ul i {
+  font-size: 13px;
+}
+section.offer1 button,
+section.offer2 button,
+section.offer3 button,
+section.offer4 button {
+  margin: 20px 0px;
+}
+section.offer1 button i,
+section.offer2 button i,
+section.offer3 button i,
+section.offer4 button i {
+  font-size: 13px;
+}
+section.breadcrumbrs {
+  background: rgba(19, 191, 177, 0.79);
+  width: 97vw;
+  bottom: 0;
+  position: absolute;
+  color: white;
+  line-height: 40px;
+  padding: 10px 10px;
+}
+.container {
+  margin-bottom: 40px;
+}
+.container .wrapper2 i {
+  font-size: 62px;
+  color: #13bfb1;
+}
+.container .wrapper2 .icon6 {
+  float: left;
+  padding: 0px 15px 15px 0px;
+}
+.container h4 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+.container h5 {
+  font-family: "Lato";
+  font-size: 21px;
+  font-weight: 300;
+}
+section.form h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 14px;
+}
+section.form h5 {
+  font-family: "Robot";
+  font-size: 14px;
+  color: #737474;
+}
+section.form p {
+  font-family: "Robot";
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 14px;
+}
+section.form label {
+  padding-bottom: 5px;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: bold;
+}
+ul.socialicons6 {
+  margin-top: 10px;
+  width: auto;
+  margin-bottom: 40px;
+}
+ul.socialicons6 li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px dashed #3bbbb0;
+}
+section.aboutus h2 {
+  font-family: "Lato";
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  color: #13bfb1;
+}
+p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #737474;
+  line-height: 25px;
+}
+p:nth-of-type(2) {
+  font-size: 13px;
+  color: #a6a7a7;
+}
+section.welcome h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 10px;
+}
+section.welcome p {
+  font-family: "Roboto";
+  font-size: 13px;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  line-height: 16px;
+}
+section.separator {
+  text-align: center;
+}
+section.separator i {
+  font-size: 63px;
+  text-align: center;
+  color: #13bfb1;
+}
+section.factors {
+  text-align: center;
+}
+section.factors .col-md-3 {
+  width: 22%;
+  background: url(../img/back2.png);
+}
+section.factors i {
+  font-size: 62px;
+  color: #13bfb1;
+}
+section.factors h5 {
+  font-size: 50px;
+}
+section.details h2 {
+  font-family: "Lato";
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+section.details p {
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 17px;
 }

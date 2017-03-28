@@ -19,12 +19,14 @@
 }
 body {
    font-family: "Roboto";
+   overflow-x: hidden;
 }
 .jumbotron {
    background-image: url(../img/slide-doctor-bg.jpg);
    background-size: cover;
-   min-height: 100vh;
+   min-height: 98vh;
    font-family: "Roboto";
+   position: relative;
    .col-md-7 {
       line-height: 29px;
    }
@@ -34,6 +36,10 @@ body {
 }
 .jumbotron .container {
    margin-top: -30px;
+   .navbar-brand img {
+      width: 30px;
+      vertical-align: sub;
+   }
    .contactbar li {
       display: inline-block;
       padding: 10px;
@@ -66,7 +72,7 @@ body {
       font-size: 5vw;
    }
    h3 {
-      fonts-size: 1vw;
+      font-size: 1vw;
       margin-top: 2%;
    }
 }
@@ -324,5 +330,201 @@ footer {
    }
    .col-md-4 {
       margin-left: auto;
+   }
+}
+
+section.offer1, section.offer2, section.offer3, section.offer4 {
+   margin-bottom: 80px;
+   .col-md-4 {
+      border-right: 1px dotted lighten(@font3, 20%);
+   }
+   h2 {
+      font-size: 30px;
+      font-family: "Lato";
+      font-weight: 300;
+      padding: 10px 0px;
+   }
+   h3 {
+      font-size: ;
+      font-family: "Roboto";
+      margin-bottom: 10px;
+      color: @main;
+   }
+   i {
+      font-size: 62px;
+      color: @main;
+      padding-top: 100px;
+   }
+   p {
+      font-size: 13px;
+      line-height: 21px;
+      color: @font3;
+   }
+   ul {
+      padding: 10px 0px;
+      list-style: none;
+      line-height: 22px;
+      i {
+         font-size: 13px;
+      }
+   }button {
+      margin: 20px 0px;
+      i {
+         font-size: 13px;
+      }
+   }
+}
+section.breadcrumbrs{
+   background: rgba(19, 191, 177, 0.79);
+   width: 97vw;
+   bottom: 0;
+   position: absolute;
+   color: white;
+   line-height: 40px;
+   padding: 10px 10px;
+}
+
+// CONTACT //
+
+.container {
+   margin-bottom: 40px;
+   .wrapper2 {
+      i {
+         font-size: 62px;
+         color: @main;
+      }
+      .icon6 {
+         float: left;
+         padding: 0px 15px 15px 0px;
+      }
+   }h4 {
+      padding-top: 15px;
+      padding-bottom: 5px;
+      font-family: "Roboto";
+      font-size: 14px;
+   }h5 {
+      font-family: "Lato";
+      font-size: 21px;
+      font-weight: 300;
+   }
+}
+
+// SECTION FORM //
+
+section.form {
+   h2 {
+      font-family: "Lato";
+      font-size: 30px;
+      font-weight: 300;
+      padding-bottom: 14px;
+   }h5 {
+      font-family: "Robot";
+      font-size: 14px;
+      color: @font3;
+   }p {
+      font-family: "Robot";
+      font-size: 14px;
+      line-height: 25px;
+      padding-bottom: 14px;
+   }label {
+      padding-bottom: 5px;
+      font-family: "Roboto";
+      font-size: 13px;
+      font-weight: bold;
+   }
+}
+ul.socialicons6{
+   margin-top: 10px;
+   width: auto;
+   margin-bottom: 40px;
+   li {
+      display: inline-block;
+      padding: 10px;
+      border: 1px dashed @font1;
+   }
+}
+
+// SECTION ABOUT US //
+
+section.aboutus {
+   h2 {
+      font-family: "Lato";
+      font-size: 25px;
+      font-weight: 300;
+      padding-bottom: 10px;
+      color: @main;
+   }
+}p {
+   font-family: "Roboto";
+   font-size: 14px;
+   color: @font3;
+   line-height: 25px;
+   &:nth-of-type(2) {
+      font-size: 13px;
+      color: lighten(@font3, 20%);
+   }
+}
+
+
+// SECTION WELCOME //
+
+section.welcome {
+   h2 {
+      font-family: "Lato";
+      font-size: 30px;
+      font-weight: 300;
+      text-align: center;
+      padding-bottom: 10px;
+   }p {
+      font-family: "Roboto";
+      font-size: 13px;
+      margin: 0 auto;
+      width: 60%;
+      text-align: center;
+      line-height: 16px;
+   }
+}
+// SECTION SEPARATOR //
+
+section.separator {
+   text-align: center;
+   i {
+      font-size: 63px;
+      text-align: center;
+      color: @main;
+   }
+}
+
+
+// SECTION FACTORS //
+
+
+section.factors {
+   text-align: center;
+   .col-md-3 {
+      width: 22%;
+      background: url(../img/back2.png);
+   }
+   i {
+      font-size: 62px;
+      color: @main;
+   }h5 {
+      font-size: 50px;
+   }
+}
+
+
+// SECTION DETAILS //
+
+section.details {
+   h2 {
+      font-family: "Lato";
+      font-size: 25px;
+      font-weight: 300;
+      padding-bottom: 10px;
+   }p {
+      font-family: "Roboto";
+      font-size: 13px;
+      line-height: 17px;
    }
 }
