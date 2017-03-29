@@ -33,6 +33,11 @@ body {
 }
 .jumbotron .social {
    text-align: right;
+   & li:hover {
+      color: white;
+      cursor: pointer;
+      box-shadow: 1px 1px 2px #007171;
+   }
 }
 .jumbotron .container {
    margin-top: -30px;
@@ -80,42 +85,53 @@ span {
    color: #13bfb1;
 }
 .navbar {
-   height: 90px;
+   height: 85px;
    background: white;
 }
 .navbar-nav a{
    border-right: 1px dotted #d6d6d6;
-   line-height: 25px;
+   box-sizing: content-box;
    color: #333333;
+   padding: 35px 0px;
    display: block;
-   width: 90px;
+   width: 120px;
    text-align: center;
+   &:hover {
+      border-top: 3px solid #00e3e3;
+      color: @main;
+   }
 }
 
 // SECTION MAIN INFO //
 
 .main-info {
-   font-family: "Lato";
    text-align: center;
+   margin-bottom: 60px;
    h1 {
       font-size: 3vw;
       font-weight: 300;
       margin-bottom: 20px;
       color: @maindark;
+      font-family: "Lato";
    }
    h3 {
       font-size: 21px;
       font-weight: 300;
       margin-top: 10px;
       margin-bottom: 10px;
+      font-family: "Lato";
    }
    h4 {
       font-size: 13px;
-      color: lighten(@font3, 20%);
+      color: #626262;
       margin-bottom: 20px;
-
+      line-height: 20px;
+      font-weight: normal;
+      font-family: "Roboto";
+      margin-bottom: 30px;
    }
    h5 {
+      font-family: "Roboto";
       margin-bottom: 70px;
       color: lighten(@font3, 20%);
       font-size: 13px;
@@ -135,6 +151,7 @@ section.contact {
    background: #ecf7f6;
    font-family: "Lato";
    font-weight: 300;
+   margin-bottom: 100px;
    .image1 img{
       width: 99%;
    }
@@ -179,13 +196,14 @@ section.contact {
 
 section.offer {
    margin-top: 50px;
+   margin-bottom: 100px;
    font-family: "Lato";
   .col-md-12 {
       text-align: left;
      h2 {
         font-size: 42px;
         font-weight: 300;
-        padding-bottom: 30px;
+        padding-top: 10px;
         text-align: center;
         font-family: "Lato";
         padding-bottom: 60px;
@@ -204,7 +222,7 @@ section.offer {
         color: lighten(@font3, 30%);
      }
    }i {
-      font-size: 63px;
+      font-size: 73px;
       float: left;
       padding-right: 13px;
       color: @main;
