@@ -93,7 +93,9 @@ body {
    background: linear-gradient(to right, rgba(180, 232, 226, 1) 0%, rgba(236, 248, 248, 0) 100%);
    border-radius: 10px;
 }
-
+.socialmedia {
+	justify-content: flex-end;
+}
 .socialmedia li {
    display: inline-block;
    line-height: 24px;
@@ -145,7 +147,7 @@ span.sup {
 .navbar {
    height: 85px;
    background: white;
-   z-index: 0;
+   z-index: 5;
 }
 
 .navbar-nav a {
